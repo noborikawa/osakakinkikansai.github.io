@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>○○博物館</title>
+    <meta name="description" content="歴史的遺産を展示する博物館のサイト">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="preconnect" href="http://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<style>
+	button {
+		background-color: grey;
+		color: yellow;
+		width: 100px;
+		height: 30px;
+	}
+	#select {
+		background-color: #009bc6;
+		color: #ffff;
+		border-radius: 10%;
+	}
+</style>
+</head>
+<body>
+
+<main>
+<div class="wrapper area">
+	<div id="output"></div>
+	<form>
+	<p>問題ですぞ。</p>
+	<p>南極大陸に生息している泳ぐ鳥は？</p>
+	<button id="datyou">ダチョウ</button>
+	<button id="gatyou">ガチョウ</button>
+	<button id="pengin">ペンギン</button>
+	<form id="form">
+	<p>空を飛ぶ動物は？</p>
+	<button type="radio" id="koumori">蝙蝠</button>
+	<button type="radio" id="kamakiri">蟷螂</button>
+	<button type="radio" id="hikigaeru">蟾蜍</button>
+	</form>
+	<p>大陸に位置する国は？</p>
+	<button id="ja">japan</button>
+	<button id="en">england</button>
+	<button id="zn">china</button>
+	<br>
+
+	<br>
+	<form id="form">
+		<p>下のチェックボックスでページ移動ができます。</p>
+		<select id="select">
+			<option value="quiz.html">㌻移動</option>
+			<option value="index.html">ホーム</option>
+			<option value="about.html">前ページ</option>
+		</select>
+	</form>
+</div>
+</main>
+<script src="js/script.js"></script>
+<script>
+'use strict';
+</script>
+</body>
+</html>
