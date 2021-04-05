@@ -1,0 +1,1 @@
+# osakakinkikansai.github.io
